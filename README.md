@@ -1,3 +1,4 @@
 # SAR_Unsupervised_Segmentation
 * **Implementation of the paper :** R. Shang, Y. Yuan, L. Jiao, B. Hou, A. M. Ghalamzan Esfahani and R. Stolkin, "A Fast Algorithm for SAR Image Segmentation Based on Key Pixels," in IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 10, no. 12, pp. 5657-5673, Dec. 2017, doi: 10.1109/JSTARS.2017.2743338.
 * **For further information :** https://ieeexplore.ieee.org/document/8062801
+* **Unsupervised Segmentation :** Polarimetric SAR image segmentation is a difficult problem that requires a good understanding of the underlying physic and the elaboration of robust clustering algorithms involving Deep Learning Techniques. In this GitHub one may find intersting the approach implemented in order to determine a valid segmentation for the specific image of Bretigny. It involves physical decomposition of the raw data, filtering, extracting features and finally clustering it.
