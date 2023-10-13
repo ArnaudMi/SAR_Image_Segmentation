@@ -1,4 +1,10 @@
+# Properties of Deep Learning Methods
+* **Auto Encoders**: Autoencoders proved themselves to be rather efficient in understanding underlying structures of differents datasets (CIFAR10, MNIST, fashion MNIST). In this repository they are applied in order to describe radar datas. Along with clustering methods they may be able to improve clustering results
+* **Self-Supervised Active Learning**: The labelling of the radar databasis is an important topic due to the large amount of collected datas. A few images in the litterature have been labeled such as San Francisco, Oberpfaffenhofen, Flevoland. ONERA made another image available to me, the image of Bretigny Sur Orge. The code developed in python was first made for bretigny and then extended to other images. The goal was to retrieve the terrain truth given a clustering.
+
 # SAR_Unsupervised_Segmentation
-* **Implementation of the paper :** R. Shang, Y. Yuan, L. Jiao, B. Hou, A. M. Ghalamzan Esfahani and R. Stolkin, "A Fast Algorithm for SAR Image Segmentation Based on Key Pixels," in IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 10, no. 12, pp. 5657-5673, Dec. 2017, doi: 10.1109/JSTARS.2017.2743338.
-* **For further information :** https://ieeexplore.ieee.org/document/8062801
 * **Unsupervised Segmentation :** Polarimetric SAR image segmentation is a difficult problem that requires a good understanding of the underlying physic and the elaboration of robust clustering algorithms involving Deep Learning Techniques. In this GitHub one may find intersting the approach implemented in order to determine a valid segmentation for the specific image of Bretigny. It involves physical decomposition of the raw data, filtering, extracting features and finally clustering it.
+
+# References
+* **Segment Anything META** : Kirillov, Alexander and Mintun, Eric and Ravi, Nikhila and Mao, Hanzi and Rolland, Chloe and Gustafson, Laura and Xiao, Tete and Whitehead, Spencer and Berg, Alexander C. and Lo, Wan-Yen and Doll{\'a}r, Piotr and Girshick, Ross. 
+* **A Fast Algorithm for SAR Image Segmentation Based on Key Pixels** : R. Shang, Y. Yuan, L. Jiao, B. Hou, A. M. Ghalamzan Esfahani and R. Stolkin, "A Fast Algorithm for SAR Image Segmentation Based on Key Pixels," in IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 10, no. 12, pp. 5657-5673, Dec. 2017, doi: 10.1109/JSTARS.2017.2743338.
